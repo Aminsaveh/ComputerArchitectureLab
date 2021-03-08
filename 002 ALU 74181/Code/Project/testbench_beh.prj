@@ -1,0 +1,7 @@
+verilog work "modulefinal2.v"
+verilog work "modulefinal1.v"
+verilog work "module2.v"
+verilog work "module1.v"
+verilog work "alu74181.v"
+verilog work "testbench.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

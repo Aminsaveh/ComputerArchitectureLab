@@ -1,0 +1,7 @@
+verilog isim_temp "modulefinal2.v"
+verilog isim_temp "modulefinal1.v"
+verilog isim_temp "module2.v"
+verilog isim_temp "module1.v"
+verilog isim_temp "alu74181.v"
+verilog isim_temp "testbench.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,152 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml alu74181.twx alu74181.ncd -o alu74181.twr alu74181.pcf
+
+Design file:              alu74181.ncd
+Physical constraint file: alu74181.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |AeqB           |   10.389|
+A<0>           |Cn4            |    9.751|
+A<0>           |F<0>           |    7.104|
+A<0>           |F<1>           |    7.987|
+A<0>           |F<2>           |    8.736|
+A<0>           |F<3>           |    9.536|
+A<0>           |G              |    8.119|
+A<0>           |P              |    8.301|
+A<1>           |AeqB           |   10.330|
+A<1>           |Cn4            |    9.714|
+A<1>           |F<1>           |    7.382|
+A<1>           |F<2>           |    8.677|
+A<1>           |F<3>           |    9.477|
+A<1>           |G              |    7.826|
+A<1>           |P              |    8.264|
+A<2>           |AeqB           |    9.756|
+A<2>           |Cn4            |    9.720|
+A<2>           |F<2>           |    8.525|
+A<2>           |F<3>           |    8.903|
+A<2>           |G              |    7.861|
+A<2>           |P              |    8.270|
+A<3>           |AeqB           |    8.647|
+A<3>           |Cn4            |    9.290|
+A<3>           |F<3>           |    7.794|
+A<3>           |G              |    7.902|
+A<3>           |P              |    8.005|
+B<0>           |AeqB           |    9.891|
+B<0>           |Cn4            |    9.253|
+B<0>           |F<0>           |    6.606|
+B<0>           |F<1>           |    7.511|
+B<0>           |F<2>           |    8.238|
+B<0>           |F<3>           |    9.038|
+B<0>           |G              |    7.752|
+B<0>           |P              |    7.803|
+B<1>           |AeqB           |   10.189|
+B<1>           |Cn4            |    9.551|
+B<1>           |F<1>           |    7.168|
+B<1>           |F<2>           |    8.536|
+B<1>           |F<3>           |    9.336|
+B<1>           |G              |    7.685|
+B<1>           |P              |    8.101|
+B<2>           |AeqB           |    9.514|
+B<2>           |Cn4            |    9.478|
+B<2>           |F<2>           |    8.283|
+B<2>           |F<3>           |    8.661|
+B<2>           |G              |    7.619|
+B<2>           |P              |    8.028|
+B<3>           |AeqB           |    8.797|
+B<3>           |Cn4            |    9.322|
+B<3>           |F<3>           |    7.944|
+B<3>           |G              |    8.166|
+B<3>           |P              |    7.930|
+Cn             |AeqB           |    9.275|
+Cn             |Cn4            |    8.082|
+Cn             |F<0>           |    6.314|
+Cn             |F<1>           |    6.570|
+Cn             |F<2>           |    7.622|
+Cn             |F<3>           |    8.422|
+M              |AeqB           |    8.318|
+M              |F<0>           |    6.030|
+M              |F<1>           |    6.637|
+M              |F<2>           |    6.958|
+M              |F<3>           |    6.708|
+S<0>           |AeqB           |   10.004|
+S<0>           |Cn4            |    9.366|
+S<0>           |F<0>           |    6.719|
+S<0>           |F<1>           |    7.602|
+S<0>           |F<2>           |    8.351|
+S<0>           |F<3>           |    9.151|
+S<0>           |P              |    7.916|
+S<1>           |AeqB           |   10.532|
+S<1>           |Cn4            |    9.894|
+S<1>           |F<0>           |    7.247|
+S<1>           |F<1>           |    8.130|
+S<1>           |F<2>           |    8.879|
+S<1>           |F<3>           |    9.679|
+S<1>           |P              |    8.444|
+S<2>           |AeqB           |   10.028|
+S<2>           |Cn4            |    9.992|
+S<2>           |F<0>           |    6.198|
+S<2>           |F<1>           |    7.333|
+S<2>           |F<2>           |    8.797|
+S<2>           |F<3>           |    9.175|
+S<2>           |G              |    8.133|
+S<2>           |P              |    8.542|
+S<3>           |AeqB           |    9.953|
+S<3>           |Cn4            |    9.338|
+S<3>           |F<0>           |    6.701|
+S<3>           |F<1>           |    7.836|
+S<3>           |F<2>           |    8.300|
+S<3>           |F<3>           |    9.100|
+S<3>           |G              |    8.077|
+S<3>           |P              |    7.888|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 08 21:53:42 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4484 MB
+
+
+
