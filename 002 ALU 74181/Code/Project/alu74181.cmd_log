@@ -1,5 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/pixel/Desktop/az3/alu74181.xst" -ofn "C:/Users/pixel/Desktop/az3/alu74181.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 alu74181.ngc alu74181.ngd  
-map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o alu74181_map.ncd alu74181.ngd alu74181.pcf 
-par -w -intstyle ise -ol high -t 1 alu74181_map.ncd alu74181.ncd alu74181.pcf 
-trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml alu74181.twx alu74181.ncd -o alu74181.twr alu74181.pcf 
