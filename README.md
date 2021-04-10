@@ -10,3 +10,5 @@ Projects of Architecture Laboratory Course - Spring 2021
 - [Ring Counter](https://github.com/KamyabAbedi/ComputerArchitectureLab/tree/main/001%20BCD%20Adder%20and%20Johnson%20Counter/Code/RingCounter)
 #### HW 3
 - [ALU 74181](https://github.com/KamyabAbedi/ComputerArchitectureLab/tree/main/002%20ALU%2074181)
+#### HW 4
+- [Shift and Add Multiplication](https://github.com/KamyabAbedi/ComputerArchitectureLab/tree/main/003%20Shift%20and%20Add%20Multiplication/Code)
