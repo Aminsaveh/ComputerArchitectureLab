@@ -13,4 +13,4 @@ Projects of Architecture Laboratory Course - Spring 2021
 #### HW 4
 - [Shift and Add Multiplication](https://github.com/KamyabAbedi/ComputerArchitectureLab/tree/main/003%20Shift%20and%20Add%20Multiplication/Code)
 #### HW 5
-- [Memory]()
+- [Memory](https://github.com/KamyabAbedi/ComputerArchitectureLab/tree/main/004%20Memory)
