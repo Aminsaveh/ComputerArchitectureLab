@@ -16,3 +16,5 @@ Projects of Architecture Laboratory Course - Spring 2021
 - [Memory](https://github.com/KamyabAbedi/ComputerArchitectureLab/tree/main/004%20Memory)
 #### HW 6
 - [Single Cycle Processor](https://github.com/KamyabAbedi/ComputerArchitectureLab/tree/main/005%20Single%20Cycle%20Processor)
+#### HW 7
+- [Pipelined Processor](https://github.com/KamyabAbedi/ComputerArchitectureLab/tree/main/006%20Pipelined%20Processor)
